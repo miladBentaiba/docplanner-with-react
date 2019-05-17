@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css'
 
-export default class Card extends React.Component {
+export default class Cards extends React.Component {
   render() {
     return (
         <section className="section2 container">

@@ -33,16 +33,15 @@ export class ENavbar extends React.Component {
   render() {
     return (
       <div>
-        
         <Navbar className="fixed-top" color="light" light expand="md">
           <NavbarBrand href="/"><img className="logo" alt="docplanner" src="https://www.docplanner.com/img/logo-default-group-en.svg?v=1" width="30%"/></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="ml-auto navitem " navbar>
               <NavItem>
                 <NavLink href="/components/">About us</NavLink>
               </NavItem>
-              <NavItem>
+              <NavItem >
                 <NavLink href="/career/">Career</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
