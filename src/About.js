@@ -30,9 +30,6 @@ export default class About extends React.Component {
                 </div>
               </div>
             </div>
-            <script>
-              AOS.init();
-            </script>
           </section>
         </div>
     );

@@ -23,7 +23,7 @@ code {
   .navbar-brand {
       width: 54%;
   }
-}
+}*/
 @media only screen and (max-width: 360px) {
   .img2 {
       height: 20%;
@@ -35,9 +35,11 @@ code {
   flex-direction: column;
   }
   .img1{
+      height: 20%;
       margin-left: 1%;
+      /* padding-right: 18%; */
   }
-}*/
+}
 .main1{
     text-align: center;
 }
@@ -55,19 +57,16 @@ code {
     font-size: 23px;
     color: white;
 }
-.cot1{
+.cot1, .cot2{
     background: #00b39b;
     padding-left: 7%;
     padding-top: 4%;
     border-radius: 2%;
     overflow: hidden;
+    margin-top:2em;
 }
 .cot2{
     background: #3d83df;
-    padding-left: 7%;
-    padding-top: 4%;
-    border-radius: 2%;
-    overflow: hidden;
 }
 .list{
     display: flex;
@@ -84,13 +83,13 @@ img.img2 {
 img.img1 {
     margin-left: 25%;
 }
-.col-lg-7{
+/* .col-lg-7{
     display: flex;
     flex-wrap: wrap;
     width: 70%;
     justify-content: space-between;
     height: 78px;
-}
+} */
 .p2{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-weight: 300;

@@ -28,9 +28,12 @@ export class ENavbar extends React.Component {
       isOpen: !this.state.isOpen
     });
   }
+
+  
   render() {
     return (
       <div>
+        
         <Navbar className="fixed-top" color="light" light expand="md">
           <NavbarBrand href="/"><img className="logo" alt="docplanner" src="https://www.docplanner.com/img/logo-default-group-en.svg?v=1" width="30%"/></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />

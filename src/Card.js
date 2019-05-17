@@ -19,7 +19,7 @@ export default class Card extends React.Component {
                           <option value="">Brazil</option>
                         </select>
                       </div>
-                      <div><img className="img1" alt="computer"  src="https://www.docplanner.com/img/screen-marketplace@2x.png" width="95%" height="37%"/></div>
+                      <img className="img1" alt="computer" src="https://www.docplanner.com/img/screen-marketplace@2x.png" width="75%" height="37%"/>
                     </div>   
                 </div>
             </div>

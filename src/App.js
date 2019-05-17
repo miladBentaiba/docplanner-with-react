@@ -6,6 +6,7 @@ import About from './About'
 import Card from './Card'
 
 export class App extends React.Component {
+  
   render() {
     return (
       <div className="body">
