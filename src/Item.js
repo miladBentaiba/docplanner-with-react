@@ -7,6 +7,7 @@ export default class Item extends React.Component {
       const {item} = this.props
     return (        
         <div className="col-lg-4 col-md-6 col-sm-12">
+            <br/>
             <div className="graf1sec7">
             <div >
                 <img alt="" src={item.img} width="100%"/>

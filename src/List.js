@@ -17,7 +17,7 @@ export default class List extends React.Component {
     return (
         <div className="container">
             <div className="row">
-                {this.items.map((el, index)=><Item item={el} key={index} />)}
+                {this.items.map((el, index)=><Item item={el} key={index} /> )}
             </div>
         </div>
      
